@@ -38,5 +38,5 @@ az notification-hub create --resource-group  AverageTemperatureNotifyer --namesp
 
 ```
 
-
+2. Go to the "Notification Hub" and further to "Settings" in order to register your application to receive notifications from the hub on different platforms like: Apple, Google, Windows, Windows Phone, Amazon and Baidu. 
 
