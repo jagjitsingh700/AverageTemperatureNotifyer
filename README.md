@@ -7,6 +7,6 @@ Azure Notification Hubs provides an easy-to-use and scaled-out push engine that 
 
 # Architecture
 
-In this case "AverageTemperatureNotifyer" will get weather data from YR and push it to Azure Notification Hub which again will send to respective platforms in form of notifications. 
+In this case "AverageTemperatureNotifyer" will get weather data from Metrologisk Institutt and push it to Azure Notification Hub which again will send to respective platforms in form of notifications. 
 
 
