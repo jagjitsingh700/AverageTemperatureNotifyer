@@ -40,5 +40,5 @@ az notification-hub create --resource-group  AverageTemperatureNotifyer --namesp
 
 2. Go to the "Notification Hub" and further to "Settings" in order to register your application to receive notifications from the hub on different platforms like: Apple, Google, Windows, Windows Phone, Amazon and Baidu. 
 
-3. The different applications also need to be ready for receiving notifications by using an `Access Policy ConnectionString` made available and create a channel to the hub for receiving such push notifications. Will add few samples in this repository for different platform receiving such notifications. 
+3. The different applications also need to be ready for receiving notifications by using an `Access Policy ConnectionString` made available and create a channel to the hub for receiving such push notifications. Will add few samples in this repository for how an app on different platform can create such a channel and receive notification. 
 
