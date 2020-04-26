@@ -39,7 +39,7 @@ az notification-hub namespace authorization-rule list-keys --resource-group Aver
 az notification-hub create --resource-group  AverageTemperatureNotifyer --namespace-name AverageTemperatureContainer --name AverageTemperatureHub1 --location northeurope --sku Free
 ```
 
-2. Implement "Console" application for sending area wise template notifications for the average temperature each day. This application will only send a template notification targeting all PNS(Platform Notfication Service), like APNS, GCM/FCM, WNS, and MPNS template registrations. In order words only one notficiation template is needed to be sent out from console application and that same template notfication will by Notfication Hub be sent to all different platforms through their PNS. (Part of POC)
+2. Implement "Console" application for sending area wise template notifications for the average temperature each day. This application will only send a template notification targeting all PNS(Platform Notfication Service), like APNS, GCM/FCM, WNS, and MPNS template registrations. In order words only one notficiation template is needed to be sent out from console application and that same template notfication will by Notfication Hub be sent to all different platforms through their PNS. (Part of POC - See code in repository)
 
 # Extension of POC
 
